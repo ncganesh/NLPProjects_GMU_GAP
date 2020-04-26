@@ -1,0 +1,42 @@
+Script started on Mon Sep 30 16:24:13 2019
+[?1034hbash-3.2$ time python3 nb_1.py
+Non-stemmed Word Count
+Accuracy  0.821
+Confusion Matrix:- 
+[[10411.  2088.]
+ [ 2387. 10114.]]
+
+Stemmed Word Count
+Accuracy  0.79996
+Confusion Matrix:- 
+[[ 8963.  3536.]
+ [ 1465. 11036.]]
+
+Non-stemmed Binary
+Accuracy  0.64416
+Confusion Matrix:- 
+[[ 4552.  7947.]
+ [  949. 11552.]]
+
+Stemmed Binary
+Accuracy  0.60536
+Confusion Matrix:- 
+[[ 3693.  8806.]
+ [ 1060. 11441.]]
+
+Non-Stemmed TF-IDF
+Accuracy  0.6022
+Confusion Matrix:- 
+[[7083. 5416.]
+ [4529. 7972.]]
+
+Stemmed TF-IDF
+Accuracy  0.5816
+Confusion Matrix:- 
+[[7362. 5137.]
+ [5323. 7178.]]
+
+real	8m57.350s
+user	8m31.236s
+sys	0m9.634s
+bash-3.2$ 

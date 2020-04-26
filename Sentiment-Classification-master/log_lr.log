@@ -1,0 +1,116 @@
+Script started on Mon Sep 30 14:15:58 2019
+[?1034hbash-3.2$ time python3 LR.py
+Data Clean:  Stemmed
+Vectorization:   TF-IDF vectorizer
+LR cost function:  Regularized
+F1 SCore:  0.7978633556284047
+Accuracy:  0.798
+Confusion Matrix:
+[[386 114]
+ [ 88 412]]
+ 
+Data Clean:  Stemmed
+Vectorization:   TF-IDF vectorizer
+LR cost function:  Not regularized
+F1 SCore:  0.7978633556284047
+Accuracy:  0.798
+Confusion Matrix:
+[[386 114]
+ [ 88 412]]
+ 
+Data Clean:  Stemmed
+Vectorization:   Count vectorizer
+LR cost function:  Regularized
+F1 SCore:  0.7039893436163701
+Accuracy:  0.704
+Confusion Matrix:
+[[349 151]
+ [145 355]]
+ 
+Data Clean:  Stemmed
+Vectorization:   Count vectorizer
+LR cost function:  Not regularized
+F1 SCore:  0.7039893436163701
+Accuracy:  0.704
+Confusion Matrix:
+[[349 151]
+ [145 355]]
+ 
+Data Clean:  Stemmed
+Vectorization:  Binary vectorizer
+LR cost function:  Regularized
+F1 SCore:  0.8169470977112385
+Accuracy:  0.817
+Confusion Matrix:
+[[400 100]
+ [ 83 417]]
+ 
+Data Clean:  Stemmed
+Vectorization:  Binary vectorizer
+LR cost function:  Not regularized
+F1 SCore:  0.8169470977112385
+Accuracy:  0.817
+Confusion Matrix:
+[[400 100]
+ [ 83 417]]
+ 
+Data Clean:  Not Stemmed
+Vectorization:   TF-IDF vectorizer
+LR cost function:  Regularized
+F1 SCore:  0.8038462154328994
+Accuracy:  0.804
+Confusion Matrix:
+[[388 112]
+ [ 84 416]]
+ 
+Data Clean:  Not Stemmed
+Vectorization:   TF-IDF vectorizer
+LR cost function:  Not regularized
+F1 SCore:  0.8038462154328994
+Accuracy:  0.804
+Confusion Matrix:
+[[388 112]
+ [ 84 416]]
+ 
+Data Clean:  Not Stemmed
+Vectorization:   Count vectorizer
+LR cost function:  Regularized
+F1 SCore:  0.7299956799308789
+Accuracy:  0.73
+Confusion Matrix:
+[[363 137]
+ [133 367]]
+ 
+Data Clean:  Not Stemmed
+Vectorization:   Count vectorizer
+LR cost function:  Not regularized
+F1 SCore:  0.7299956799308789
+Accuracy:  0.73
+Confusion Matrix:
+[[363 137]
+ [133 367]]
+ 
+Data Clean:  Not Stemmed
+Vectorization:  Binary vectorizer
+LR cost function:  Regularized
+F1 SCore:  0.8069303018389639
+Accuracy:  0.807
+Confusion Matrix:
+[[394 106]
+ [ 87 413]]
+ 
+Data Clean:  Not Stemmed
+Vectorization:  Binary vectorizer
+LR cost function:  Not regularized
+F1 SCore:  0.8069303018389639
+Accuracy:  0.807
+Confusion Matrix:
+[[394 106]
+ [ 87 413]]
+ 
+--- 338.84345030784607 seconds ---
+
+real	5m38.994s
+user	12m46.395s
+sys	0m11.765s
+bash-3.2$ 
